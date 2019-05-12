@@ -11,28 +11,34 @@ switch ((a, b, c)) {
   case islem1:
     document.write(a + b);
     console.log(a + b);
+    alert(a + b);
     break;
   case islem2:
     if (a > b) {
       document.write(a - b);
       console.log(a - b);
+      alert(a - b);
     } else {
       document.write(b - a);
       console.log(b - a);
+      alert(b - a);
     }
 
     break;
   case islem3:
     document.write(a * b);
     console.log(a * b);
+    alert(a * b);
     break;
   case islem4:
     if (a > b) {
       document.write(a / b);
       console.log(a / b);
+      alert(a / b);
     } else {
       document.write(b / a);
       console.log(b / a);
+      alert(b / a);
     }
 
     break;
